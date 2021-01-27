@@ -250,7 +250,7 @@ h4 {
 .button {
   background-color: black;
   color: white;
-  border: none;
+  border: black;
   border-radius: 10px;
   padding: 10px 20px;
   width: 250px;
@@ -266,8 +266,19 @@ h4 {
   cursor: pointer;
 }
 
+.button:hover {
+  color: #F6E8C6;
+  border: 2px solid #F6E8C6;
+}
+
 .pink-button {
   background-color: #EEAE9E;
+  border: #EEAE9E;
+  color: black;
+}
+
+.pink-button:hover {
+  border: 2px solid #F6E8C6;
   color: black;
 }
 

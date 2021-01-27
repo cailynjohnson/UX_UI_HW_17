@@ -70,7 +70,7 @@ header {
 
 /* hero section */
 .hero-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/Hero.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/Hero.png");
     height: 90%;
     width: 100%;
     background-position: center;
@@ -208,7 +208,7 @@ h4 {
 .button {
     background-color: black;
     color: white;
-    border: none;
+    border: black;
     border-radius: 10px;
     padding: 10px 20px;
     width: 250px;
@@ -224,8 +224,19 @@ h4 {
     cursor: pointer;
 }
 
+.button:hover {
+    color: #F6E8C6;
+    border: 2px solid #F6E8C6;
+}
+
 .pink-button {
     background-color: #EEAE9E;
+    border: #EEAE9E;
+    color: black;
+}
+
+.pink-button:hover {
+    border: 2px solid #F6E8C6;
     color: black;
 }
 
