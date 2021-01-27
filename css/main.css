@@ -1,0 +1,279 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  font-family: "Gesta", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* navigation section */
+.nav-container {
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  height: 100px;
+  width: 100%;
+}
+
+.nav-container a {
+  color: white;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+header .logo {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  position: absolute;
+  left: 100px;
+  top: 10px;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Gesta";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  line-height: 1.6;
+}
+
+header ul a {
+  display: block;
+  padding: 0 1em;
+}
+
+#highlight {
+  color: #f6e8c6;
+}
+
+/* hero section */
+.hero-img {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../Images/Hero.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Images/Hero.png");
+  height: 90%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-content {
+  width: 800px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+/* portfolio section */
+.portfolio-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.portfolio-item:first-child {
+  margin-top: 5rem;
+}
+
+.portfolio-img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.portfolio-description {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.portfolio-container {
+  width: 90%;
+  max-width: 120rem;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.has-margin-right {
+  margin-right: 5rem;
+}
+
+/* footer section */
+footer {
+  height: 600px;
+  width: 100%;
+  background-color: #101010;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 40px;
+}
+
+/* fonts  */
+#display {
+  font-family: "Unica One", sans-serif;
+  font-size: 80px;
+  font-weight: 500;
+  letter-spacing: 10px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-family: "Gesta";
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  line-height: 1.6;
+}
+
+h2 {
+  font-family: "Gesta";
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+h3 {
+  font-family: "Gesta";
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+h4 {
+  font-family: "Gesta";
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  line-height: 1.6;
+}
+
+/* icons/logos/buttons */
+.icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.icon:hover {
+  opacity: 0.7;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 250px;
+  height: 50px;
+  font-family: "Gesta";
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  line-height: 1.6;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pink-button {
+  background-color: #EEAE9E;
+  color: black;
+}
+
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px;
+}
+/*# sourceMappingURL=main.css.map */
